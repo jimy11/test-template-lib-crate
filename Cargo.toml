@@ -1,0 +1,16 @@
+[package]
+name = "test-template-lib-crate"
+version = "0.1.0"
+edition = "2021"
+description = "A comprehensive template for lib crates!"
+readme = 'README.md'
+# license = "Apache License 2.0"
+license = "MIT"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
