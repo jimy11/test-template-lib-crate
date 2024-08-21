@@ -62,5 +62,5 @@ jobs:
         run: |  
           cargo login ${CRATES_IO_TOKEN}  
           cargo publish --verbose  
-         env:  
+        env:  
           CRATES_IO_TOKEN: ${{ secrets.CRATES_IO_TOKEN }}
